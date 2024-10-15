@@ -134,7 +134,7 @@ char* decode_bencode(const char** bencoded_value) {
         return decode_dict(bencoded_value);
     }
     else {
-        fprintf(stderr, "Only strings, int, list and dict are supported at the moment\n");
+        fprintf(stderr, "Only strings, int, list and dict are supported at the moment\n\n");
         exit(1);
     }
 }
