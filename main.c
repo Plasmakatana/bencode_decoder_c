@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
          printf("%s\n", decoded_str);
          free(decoded_str);
     } else {
-        fprintf(stderr, "Unknown command: %s\n", command);
+        fprintf(stderr, "Unknown command: %s\n\n", command);
         return 1;
     }
 
